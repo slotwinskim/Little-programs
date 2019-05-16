@@ -7,6 +7,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Chat.Common.Shared\Chat.Common.Shared.csproj" />
   </ItemGroup>
 
 </Project>
