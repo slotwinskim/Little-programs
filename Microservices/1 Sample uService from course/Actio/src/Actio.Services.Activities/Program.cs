@@ -13,6 +13,7 @@ namespace Actio.Services.Activities
     {
         public static void Main(string[] args)
         {
+            var a = 123;
             CreateHostBuilder(args).Build().Run();
         }
 
